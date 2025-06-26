@@ -10,7 +10,7 @@ export default function Table() {
       id: index,
       name: "Table Cell",
       status: "Status",
-      avatar: "/assets/avatar.svg",
+      avatar: "/assets/Avatar.svg",
     }));
   const rowsData = useMemo(() => createInitialRows(TABLE_CONFIG.rowCount), []);
   const { selectedRows, selectAll, handleSelectAll, handleRowSelect } =
